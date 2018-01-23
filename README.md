@@ -115,7 +115,7 @@ countries, err := Strings(reply[0], nil)
 
 ## Contact
 Bug reports and feature requests are welcome.
-If you have any question, please email me wuxibin2012@gmail.com.
+If you have any question, please email me gitstliu@163.com.
 
 ## License
 redis-go-cluster is available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
