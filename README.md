@@ -17,7 +17,7 @@ to its high efficiency and low lantency.
 * Lua script
 
 ## Installation
-Install redis-go-cluster with go tool:
+Install go-redis-cluster with go tool:
 ```
     go get github.com/gitstliu/go-redis-cluster
 ```
@@ -40,7 +40,7 @@ cluster, err := redis.NewCluster(
 ```
 
 ### Basic
-redis-go-cluster has compatible interface to [Redigo](https://github.com/garyburd/redigo), 
+go-redis-cluster has compatible interface to [Redigo](https://github.com/garyburd/redigo), 
 which uses a print-like API for all redis commands. When executing a command, it need a key 
 to hash to a slot, then find the corresponding redis node. Do method will choose first
 argument in args as the key, so commands which are independent from keys are not supported,
